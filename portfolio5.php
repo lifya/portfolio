@@ -18,7 +18,7 @@
   }
 
 #Home {
-  background: url(gambar1.jpg);
+  background: url(gambar6.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -29,7 +29,6 @@
   padding-top: 10%;
   position: relative;
 }
-
 #AboutGroup {
   background: url(gambar3.jpg);
   background-size:cover;
@@ -37,6 +36,21 @@
   background-attachment:fixed;
 
 }
+section {
+  min-height: 250px!important;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-top: 1px;
+  }
+
+video, img {
+  height:100%; width:100%;
+  border-radius: 5px;
+  }
+video {background-color: black;}
 
 /*logo*/
 #logo {
@@ -63,10 +77,11 @@
 .btn {
   white-space: normal;
   word-break: normal;
+  color: #CD853F ;
 }
 
 #mainMenu a:hover {
-  background-color: #5CB85C; 
+  background-color: #CD853F; 
   border-radius: 5px}
 
 .dropdown-menu a:hover {
@@ -101,44 +116,108 @@
   height: 100%;
   line-height: 400px;
 }
-
-
-
-/* Medium Devices, Desktops /-md-/*/
-@media only screen and (max-width : 992px) {
-.jumbotron {margin: 0  auto;}
-#rowPortf { margin:0 auto;}
+#recent_work {
+  padding-top: 50px;
+  background-image: url(gambar4.jpg);
 }
 
-/* Small Devices, Tablets /-sm-/*/
-@media only screen and (max-width : 768px) {
-.img-zoom-out {margin: 40px!important}
-#Hd {margin: 50px 0 50px 0; padding: 0 0 50px 0;}
-#rowPortf { margin:0 0px  0 auto; overflow: hidden}
+#rowPortf {
+  margin: 0 100px 0 100px; 
+  padding-bottom: 25px;
 }
 
-/* Extra Small Devices, Phones /-xs-/ */
-@media only screen and (max-width : 480px) {
-#my img {margin: 30px 70px 30px 90px;}
-.jumbotron {padding: 20px 0 20px 0;}
-.desktop, .mobile {display:none;}
-.tablet {top:0; left:8%}
-.carousel-indicators {left:27%!important;}
-.carousel-indicators>li, .carousel-indicators>.active {
-  width:2em!important; height:2em!important; border-radius: 50%!important;
-}
-.devices {height:422px;}
-#rowPortf { margin:0 auto;}
-#rowPortf h2{margin-left: -50px}
+#carousel {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-.tablet {top:0; left:5%}
-.carousel-indicators {left:24%;}
-#rowPortf h2{margin-left: -70px}
+.devices {
+  position: relative;
+  height: 575px;
+  overflow: hidden;
 }
 
+.mobile {
+  background: url(http://i41.tinypic.com/332846d.png) no-repeat -278px -479px;
+  position: absolute;
+  width: 130px;
+  height: 251px;
+  top: 330px;
+  left: 520px;
+  z-index: 3;
+}
+
+.mobile img {
+  position: absolute;
+  width: 108px;
+  height: 162px;
+  top: 41px;
+  left: 11px;
+  
+}
+
+.tablet {
+  background: url(http://i41.tinypic.com/332846d.png) no-repeat 0 -470px;
+  width: 264px;
+  height: 348px;
+  z-index: 2;
+  position: absolute;
+  top: 227px;
+  overflow: hidden;
+}
+.tablet img {
+ width: 212px;
+  height: 290px;
+  position: absolute;
+  top: 30px;
+  left:25px;
+}
+
+.desktop {
+  position: absolute;
+  width: 594px;
+  height: 457px;
+  background: url(http://i41.tinypic.com/332846d.png) no-repeat 0 0;
+  top: 0px;
+  left: 100px;
+  overflow: hidden;
+}
+.desktop img {
+  position: absolute;
+  width: 549px;
+  height: 315px;
+  left:20px;
+  top:22px;
+}
+.carousel-control:hover {
+  background-color: rgba(255,255,255,0.5)
+}
+
+.row-centerd {
+  text-align: center;
+}
+.fixed {
+  position: fixed;bottom: 0;left: 0;
+  border-radius: 0, 30px 0 0!important;
+}
+
+@media only screen and (max-width :992px) {
+  .jumbotron {margin: 0 auto;}
+  #rowPortf {margin: 0 auto}
+}
+@media only screen and (max-width: 768px) {
+  .img-zoom-out {
+    margin: 30px 70px 30px 90px;
+  }
+  #Hd {
+    margin: 50px,0 50px 0 ;
+    padding: 0 0 50px; 0
+  }
+  #rowPortf {
+    margin: 0 0px 0 auto; overflow: hidden;
+  }
+}
 </style>
 </head>
 <body>
@@ -152,14 +231,12 @@
         <ul class="nav navbar-nav">
           <li><a href="#Home">Home</a></li>
           <li><a href="#AboutGroup">About Group</a></li>
+          <li><a href="#recent_work">Product</a></li>
+          <li><a href="#">Tugas Besar</a></li>
           <li><a href="#" data-toggle="modal" data-target='#modal'>Contacts</a></li>
-          <li class='dropdown'>
-            <a href="#" class='dropdown-toggle' data-toggle='dropdown'>Portfolio </li>
-              </ul>
-           </li>
          </ul>
       </div>
-    </div>
+</div>
     <!-- Navbar-->
    <section id="Home">
    		<div class="jumbotron frosted">
@@ -173,6 +250,7 @@
    		</div>
    </section>
 
+<!--About-->
    <section id="AboutGroup">
    		<div class="jumbotron frosted">
    			<div class="Id">
@@ -186,5 +264,135 @@
         </div>
    		</div>
    </section>
+<!--About--> 
+
+<!--Recent Work-->
+     <section id="recent_work">
+        <div class="container" id="Portf">
+            <div class="row Hd" id="rowPortf">
+                <div class="col-lg-12 text-center">
+                    <h1>Some of Our Recent Work</h1>
+                      <!--carousel-->
+                      <div id="carousel" class="carousel slide">
+                      <!-- carousel indicators-->
+                          <ol class="carousel-indicators">
+                            <li class='active' data-target="#carousel" data-slide-to="0"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                            <li data-target="#carousel" data-slide-to="3"></li>
+                            <li data-target="#carousel" data-slide-to="4"></li>
+                          </ol>
+                      <div class="carousel-inner">
+                        <!--item active-->
+                             <div class="devices item active">
+                              <div class="desktop">
+                                  <a href="#" target="_blank">
+                                     <img src="gambar5.jpg"   alt="Calculator">
+                                 </a>
+                              </div>
+                              <div class="tablet">
+                                 <a href="#" target="_blank">
+                                     <img src="gambar5.jpg"   alt="Calculator">
+                                 </a>
+                              </div>
+                              <div class="mobile">
+                                 <a href="#" target="_blank">
+                                     <img src="gambar5.jpg"   alt="Calculator">
+                                 </a>
+                              </div>
+                            </div>
+                          <!--item active-->
+                          <!--item2-->
+                          <div class="devices item">
+                              <div class="desktop">
+                                    <a href="http://oky.16mb.com/MYpublic/yellow/" target="_blank">
+                                      <img src="http://oky.16mb.com/MYpublic/yellow.jpg"  alt="yellow">
+                                   </a>
+                                </div>
+                                <div class="tablet">
+                                   <a href="http://oky.16mb.com/MYpublic/yellow/" target="_blank">
+                                     <img src="http://oky.16mb.com/MYpublic/yellow.jpg"  alt="yellow">
+                                  </a>
+                                </div>
+                                <div class="mobile">
+                                   <a href="http://oky.16mb.com/MYpublic/yellow/" target="_blank">
+                                      <img src="http://oky.16mb.com/MYpublic/yellow.jpg"  alt="yellow">
+                                  </a>
+                                </div>
+                              </div>
+                            <!--item2-->
+                            <!--item3-->
+                            <div class="devices item">
+                              <div class="desktop">
+                                  <a href="https://codepen.io/oky/full/RroLzJ/" target="_blank">
+                                      <img src="http://oky.16mb.com/MYpublic/Web/Pomodoro_Clock.jpg" alt="shi">
+                                  </a>
+                              </div>
+                              <div class="tablet">
+                                  <a href="https://codepen.io/oky/full/RroLzJ/" target="_blank">
+                                    <img src="http://oky.16mb.com/MYpublic/Web/Pomodoro_Clock.jpg" alt="shi">
+                                  </a>
+                              </div>
+                              <div class="mobile">
+                                 <a href="https://codepen.io/oky/full/RroLzJ/" target="_blank">
+                                    <img src="http://oky.16mb.com/MYpublic/Web/Pomodoro_Clock.jpg" alt="shi">
+                                  </a>
+                              </div>
+                            </div>
+                            <!--item3-->
+                            <!--item4-->
+                             <div class="devices item">
+                              <div class="desktop">
+                                  <a href="#" target="_blank">
+                                     <img src="gambar3.jpg"   alt="Calculator">
+                                 </a>
+                              </div>
+                              <div class="tablet">
+                                 <a href="#" target="_blank">
+                                     <img src="gambar1.jpg"   alt="Calculator">
+                                 </a>
+                              </div>
+                              <div class="mobile">
+                                 <a href="#" target="_blank">
+                                     <img src="gambar2.jpg"   alt="Calculator">
+                                 </a>
+                              </div>
+                            </div>
+                        <!--item4-->
+                        
+                       </div><!--carousel inner-->
+                       <!--control-->
+                       <a href="#carousel" class="carousel-control left" data-slide="prev">
+                        <span class="gluphicon gluphicon-chevron-left"></span></a>
+                        <a href="#carousel" class="carousel-control right" data-slide="next">
+                        <span class="gluphicon gluphicon-chevron-right"></span></a>
+                  </div>
+            </div>
+         </div>
+    </section>
+<!--contact-->
+<div id="modal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button data-dismiss="modal" class='pull-right'><i class="fa fa-close"></i></button>
+           <h4 class='modal-title'>Contact information:</h4>
+      </div>
+      <div class="modal-body">
+         <video  src="http://oky.16mb.com/MYpublic/videoplayback2.ogg" type="video/ogg"  autoplay loop></video>
+         <div class="carousel-caption">
+            <h3>idline: @153jkl</h3>
+            <p>Email: cosmics@gmail.com</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+      <button class="btn btn-success " data-dismiss="modal">Close</button></div>
+    </div>
+  </div>
+</div>
+<button id="fixedButton" class="btn btn-success fixed" data-toggle="modal" data-target='#modal'>Contacts</button>
+
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </html>
