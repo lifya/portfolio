@@ -1,0 +1,212 @@
+.btn:hover {
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important;
+}
+
+.navbar{
+	background-color: #222222 !important;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-weight: 700;
+}
+.navbar a{
+	color: #fff !important;
+	opacity: 0.7;
+}
+.navbar a:hover{
+	opacity: 1;
+	background-color: #CD853F !important;
+}
+#Home {
+  background: url(cosmic.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+  color: black;
+  text-align: center;
+  padding: auto;
+  padding-top: 10%;
+  position: relative;
+  padding-bottom: 15%;
+}
+
+.header .btn{
+	border-radius: 0;
+	margin: 40px 20px;
+	font-family: Arial;
+  border: solid 1px;
+}
+
+.AboutGroup{
+	padding: 50px 0 80px;
+	font-family: Alice;
+}
+.AboutGroup h2,
+.AboutGroup h3{
+	margin: 20px 0 20px;
+	color: #4c4c4c;
+}
+.AboutGroup p{
+	font-family: Alice;
+  font-size: 16px;
+}
+.AboutGroup img{
+	height : 150px;
+	width: 150px;
+	margin-top: 80px;
+}
+.AboutGroup i{
+	height : 30px;
+	width: 30px;
+	padding: 5px;
+	font-size: 17px;
+	border-radius: 50%;
+	background-color: #CD853F;
+}
+.AboutGroup a:hover i{
+	background-color: #efa762;
+}
+#recent_work {
+  padding-top: 50px;
+  font-family: Alice;
+}
+
+#rowPortf {
+  margin: 0 100px 0 100px; 
+  padding-bottom: 25px;
+}
+
+#carousel {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.devices {
+  position: relative;
+  height: 575px;
+  overflow: hidden;
+}
+
+.mobile {
+  background: url(http://i41.tinypic.com/332846d.png) no-repeat -278px -479px;
+  position: absolute;
+  width: 130px;
+  height: 251px;
+  top: 330px;
+  left: 520px;
+  z-index: 3;
+}
+
+.mobile img {
+  position: absolute;
+  width: 108px;
+  height: 162px;
+  top: 41px;
+  left: 11px;
+  
+}
+
+.tablet {
+  background: url(http://i41.tinypic.com/332846d.png) no-repeat 0 -470px;
+  width: 264px;
+  height: 348px;
+  z-index: 2;
+  position: absolute;
+  top: 227px;
+  overflow: hidden;
+}
+.tablet img {
+ width: 212px;
+  height: 290px;
+  position: absolute;
+  top: 30px;
+  left:25px;
+}
+
+.desktop {
+  position: absolute;
+  width: 594px;
+  height: 457px;
+  background: url(http://i41.tinypic.com/332846d.png) no-repeat 0 0;
+  top: 0px;
+  left: 100px;
+  overflow: hidden;
+}
+.desktop img {
+  position: absolute;
+  width: 549px;
+  height: 315px;
+  left:20px;
+  top:22px;
+}
+.carousel-control:hover {
+  background-color: rgba(255,255,255,0.5)
+}
+
+.row-centerd {
+  text-align: center;
+}
+.fixed {
+  position: fixed;bottom: 0;left: 0;
+  border-radius: 0, 30px 0 0!important;
+}
+
+@media only screen and (max-width :992px) {
+  .jumbotron {margin: 0 auto;}
+  #rowPortf {margin: 0 auto}
+}
+@media only screen and (max-width: 768px) {
+  .img-zoom-out {
+    margin: 30px 70px 30px 90px;
+  }
+  #Hd {
+    margin: 50px,0 50px 0 ;
+    padding: 0 0 50px; 0
+  }
+  #rowPortf {
+    margin: 0 0px 0 auto; overflow: hidden;
+  }
+}
+video, img {
+  height:100%; width:100%;
+  border-radius: 5px;
+  }
+video {background-color: black;}
+
+#modal .modal-dialog .modal-content .modal-footer .btn{
+	border-radius: 0;
+}
+
+.footer{
+	padding: 30px;
+	color: #cccccc;
+	background-color: #222222;
+	font-family: Arial;
+}
+.footer .social{
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.footer input{
+	height: 40px;
+	width: 160px;
+	padding-bottom: 5px;
+	border: none;
+	background-color: #cccccc;
+	color: #000;
+}
+.footer .btn{
+	padding: 10px 5px 10px;
+	border-radius: 0;
+	margin : -3px 0 0 5px;
+}
