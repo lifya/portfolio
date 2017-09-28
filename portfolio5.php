@@ -7,8 +7,10 @@
     <title>Cosmics Group</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <body>
 
@@ -26,9 +28,9 @@
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#Home">Home</a></li>
-				<li><a href="#AboutGroup">About Group</a></li>
+				<li><a href="#About">About Group</a></li>
 				<li><a href="#recent_work">Product</a></li>
-				<li><a href="#team">Tugas Besar</a></li>
+				<li><a href="#tubes">Tugas Besar</a></li>
 				<li><a href="#" data-toggle="modal" data-target='#modal'>Contact</a></li>
 			</ul>
 		</div>
@@ -37,75 +39,85 @@
 
 <!--Home-->
 	<section id="Home" class="header">
-   		<div class="jumbotron frosted wow bounceUp">
-   			<h1>Web Design & Development</h1>
+   		<div class="jumbotron frosted">
+   			<h1>Computer Science Informatic</h1>
    			<h2>We are Cosmic Group</h2>
    		</div>
-   			<button class="btn btn-lg btn-primary wow bounceInUp">Join Now</button>
-   			<button class="btn btn-lg btn-success wow bounceInUp">View Detail</button>
-   		
+   			<button class="btn btn-lg btn-primary">Join Now</button>
+   			<button class="btn btn-lg btn-success">View Detail</button>
    </section>
 <!--Home-->
 
 <!--About-->
-   <section id="AboutGroup" class="AboutGroup">
-     	<div class="container" id="container1">
-          <div class="row">
-            <div class="col-lg-12 page-header text-center">
-              <h2><b>MEET OUR TEAM</b></h2>
-            </div>
+<div id="About" class="container-fluid">
+<h1 id="AboutGroup" class="text-primary">Our Profile</h1>
+<div class="container list-article">
+  <div class="btn-group pull-right" id="switch-view">
+    <button class="btn btn-primary">
+      <span class="icon-th-large"></span>
+    </button>
+    <button class="btn btn-primary active">
+      <span class="icon-th-list"></span>
+    </button>
+  </div>
+  <div class="clearfix"></div>
+  <div class="row">
+    <div class="col-sm-6 article-wrapper">
+      <article>
+        <a href="#" class="more">more</a>
+        <div class="img-wrapper"><img src="elin.jpg" alt="" /></div>
+        <h1>Elin Darnela</h1>
+          <div class="container">
+            <p>Lahir di Prabumulih, 13 Juni 1997<br> Motto hidup "Lakukan yang engkau bisa agar engkau menjadi Suka, yang berdiam akan tertinggal maka Bergeraklah"</p>
           </div>
-        </div>
+      </article>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 
-        <div class="container" id="container2" >
-          <div class="row">
-            <div class="col-lg-3 col-sm-12 text-center wow fadeInLeft" data-wow-delay="2s"> <img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="gambar1.jpg" data-holder-rendered="true">
-              <h3><b>Elin Darnela</b></h3>
-              <p>Lahir di Prabumulih, 13 Juni 1997<br>
-                 Motto hidup "Lakukan yang engkau bisa agar engkau menjadi Suka,<br>
-                 yang berdiam akan tertinggal maka Bergeraklah"
-              </p>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
-
-            <div class="col-lg-3 col-sm-12 text-center wow fadeInLeft" data-wow-delay="1.6s"><img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="gambar1.jpg" data-holder-rendered="true">
-              <h3><b>Pipit Kurnia Sari</b></h3>
-              <p>Lahir di Mekarsari, 28 Agustus 1998<br>
-                 Motto hidup "Percaya, Ada rencana terbaik"
-              </p>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
-
-            <div class="col-lg-3 col-sm-12 text-center wow fadeInLeft" data-wow-delay="1.2s"><img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="gambar1.jpg" data-holder-rendered="true">
-              <h3><b>Lifya Fitriani</b></h3>
-              <p>Lahir di Palembang, 12 febuari 1998<br>
-                 Motto hidup "You will never be brave if you don't get hurt<br>
-                 You will never learn if you don't make a mistake<br>
-                 You will never be successful if you don't counter failure<br>
-                 Informatics Engineering, Sriwijaya University '15"
-              </p>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
-
-            <div class="col-lg-3 col-sm-12 text-center wow fadeInLeft" data-wow-delay="0.8s"><img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="gambar1.jpg" data-holder-rendered="true">
-              <h3><b>Yulinda Ramadhana</b></h3>
-              <p>Lahir di Palembang, 10 Januari 1998<br>
-                 Motto hidup "Suffer today,<br>
-                 Enjoy tommorrow :)"
-              </p>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
-          </div>        
-      </div>
-   </section>
+    </div>
+    <div class="col-sm-6 article-wrapper">
+      <article>
+        <a href="#" class="more">more</a>
+        <div class="img-wrapper"><img src="lifya.jpg" alt="" /></div>
+        <h1>Lifya Fitriani</h1>
+          <div class="container">
+            <p>Lahir di Palembang, 12 febuari 1998<br>Motto hidup "You will never be brave if you don't get hurt,You will never learn if you don't make a mistake"</p>
+          </div>
+      </article>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    <div class="col-sm-6 article-wrapper">
+      <article>
+        <a href="#" class="more">more</a>
+        <div class="img-wrapper"><img src="pipit.jpg" alt="" /></div>
+        <h1>Pipit KurniaSari</h1>
+          <div class="container">
+            <p>Lahir di Mekarsari, 28 Agustus 1998<br>Motto hidup "Percaya, Ada rencana terbaik"</p>
+          </div>
+      </article>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    <div class="col-sm-6 article-wrapper">
+      <article>
+        <a href="#" class="more">more</a>
+        <div class="img-wrapper"><img src="yulinda.jpg" alt="" /></div>
+        <h1>Yulinda Ramadhana</h1>
+          <div class="container">
+            <p>Lahir di Palembang, 10 Januari 1998<br>Motto hidup "Suffer today,<br>Enjoy tommorrow :)"</p>
+          </div>    
+      </article>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
+</div>
 <!--About--> 
 
 
@@ -221,6 +233,42 @@
          </div>
     </section>
 
+<!--TUBES-->
+<div id="tubes">
+  <div class="acc-container">
+    <div class="acc-btn"><h1>Deskripsi</h1>
+      <div class="fa tss">&#xf067</div>
+    </div>
+    <div class="acc-content">
+        <p>Hyper Text Markup Language (HTML) adalah sebuah bahasa markah yang digunakan untuk membuat sebuah halaman web, menampilkan berbagai informasi di dalam sebuah penjelajah web Internet dan pemformatan hiperteks sederhana yang ditulis dalam berkas format ASCII agar dapat menghasilkan tampilan wujud yang terintegerasi. Dengan kata lain, berkas yang dibuat dalam perangkat lunak pengolah kata dan disimpan dalam format ASCII normal sehingga menjadi halaman web dengan perintah-perintah HTML. Bermula dari sebuah bahasa yang sebelumnya banyak digunakan di dunia penerbitan dan percetakan yang disebut dengan SGML (Standard Generalized Markup Language), HTML adalah sebuah standar yang digunakan secara luas untuk menampilkan halaman web. HTML saat ini merupakan standar Internet yang didefinisikan dan dikendalikan penggunaannya oleh World Wide Web Consortium (W3C). HTML dibuat oleh kolaborasi Caillau TIM dengan Berners-lee Robert ketika mereka bekerja di CERN pada tahun 1989 (CERN adalah lembaga penelitian fisika energi tinggi di Jenewa).</p>
+    </div>
+
+    <div class="acc-btn"><h1>Kebutuhan Fungsional Dan Kebutuhan Non Fungsional</h1>
+      <div class="fa tss">&#xf067</div>
+    </div>
+    <div class="acc-content">
+        <p>Pada tahun 1980 seorang ahli fisika, Tim Berners-Lee, dan juga seorang kontraktor di CERN (Organisasi Eropa untuk Riset Nuklir) mengusulkan dan menyusun ENQUIRE, sebuah sistem untuk ilmuwan CERN dalam membagi dokumen. Sembilan tahun kemudian, Berners-Lee mengusulkan adanya sistem markah berbasis internet. Berners-Lee menspesifikasikan HTML dan menulis jaringan beserta perangkat lunaknya di akhir 1990. Pada tahun yang sama, Berners-Lee dan Robert Cailliau, insinyur sistem data CERN berkolaborasi dalam sebuah permintaan untuk pendanaan, namun tidak diterima secara resmi oleh CERN. Di catatan pribadinya sejak 1990 dia mendaftar "beberapa dari banyak daerah yang menggunakan hypertext" dan pertama-tama menempatkan sebuah ensiklopedia.</p>
+    </div>
+
+    <div class="acc-btn"><h1>Use Case</h1>
+      <div class="fa tss">&#xf067</div>
+    </div>
+    <div class="acc-content">
+      <p>Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman.</p>
+      <p>Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa berkas (file). Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML.</p>
+      <p>CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan, atas, bawah, dan parameter lainnya. CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen. Dengan adanya CSS memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda.</p>
+    </div>
+
+    <div class="acc-btn"><h1>Entitas Relationship Diagram</h1>
+      <div class="fa tss">&#xf067</div>
+    </div>
+      <div class="acc-content">
+        <p>Untuk saat ini terdapat tiga versi CSS, yaitu CSS1, CSS2, dan CSS3. CSS1 dikembangkan berpusat pada pemformatan dokumen HTML, CSS2 dikembangkan untuk memenuhi kebutuhan terhadap format dokumen agar bisa ditampilkan di printer, sedangkan CSS3 adalah versi terbaru dari CSS yang mampu melakukan banyak hal dalam desain website. CSS2 mendukung penentuan posisi konten, downloadable, huruf font, tampilan pada tabel /table layout dan media tipe untuk printer. Kehadiran versi CSS yang kedua diharapkan lebih baik dari versi pertama dan kedua.</p>
+        <p>CSS3 juga dapat melakukan animasi pada halaman website, di antaranya animasi warna hingga animasi 3D. Dengan CSS3 desainer lebih dimudahkan dalam hal kompatibilitas websitenya pada smartphone dengan dukungan fitur baru yakni media query. Selain itu, banyak fitur baru pada CSS3 seperti: multiple background, border-radius, drop-shadow, border-image, CSS Math, dan CSS Object Model.</p>
+      </div>
+    </div>
+</div>
+
 <!--contact-->
 	<div id="modal" class="modal fade">
 	  <div class="modal-dialog">
@@ -277,10 +325,25 @@
 	
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/wow.min.js"></script>
-              <script>
+    <!-- <script src="js/wow.min.js"></script> -->
+              <!-- <script>
               new WOW().init();
-              </script>
+              </script>-->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+    $(function(){
+      $("#switch-view").click(function(){
+        $(this).find("button").toggleClass("active");
+        $(".article-wrapper").toggleClass("bloc col-xs-12 col-xs-4");
+      });
+    });
+    </script>
+
+     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+
 </body>
 </html>

@@ -38,20 +38,29 @@
 	font-family: Arial;
   border: solid 1px;
 }
-
+#About{
+  padding: 0 100px 100px;
+  background-color: #CDE !important;
+}
 .AboutGroup{
 	padding: 50px 0 80px;
 	font-family: Alice;
+}
+.text-primary{
+  margin-top: 10%;
 }
 .AboutGroup h2,
 .AboutGroup h3{
 	margin: 20px 0 20px;
 	color: #4c4c4c;
 }
-.AboutGroup p{
-	font-family: Alice;
+@media (max-width: 900px){
+  .AboutGroup p {
+  font-family: Alice;
   font-size: 16px;
+  }  
 }
+
 .AboutGroup img{
 	height : 150px;
 	width: 150px;
@@ -69,7 +78,7 @@
 	background-color: #efa762;
 }
 #recent_work {
-  padding-top: 50px;
+  padding-top: 15px;
   font-family: Alice;
 }
 
@@ -91,7 +100,7 @@
 }
 
 .mobile {
-  background: url(http://i41.tinypic.com/332846d.png) no-repeat -278px -479px;
+  background: url(gambar7.png) no-repeat -278px -479px;
   position: absolute;
   width: 130px;
   height: 251px;
@@ -110,7 +119,7 @@
 }
 
 .tablet {
-  background: url(http://i41.tinypic.com/332846d.png) no-repeat 0 -470px;
+  background: url(gambar7.png) no-repeat 0 -470px;
   width: 264px;
   height: 348px;
   z-index: 2;
@@ -130,7 +139,7 @@
   position: absolute;
   width: 594px;
   height: 457px;
-  background: url(http://i41.tinypic.com/332846d.png) no-repeat 0 0;
+  background: url(gambar7.png) no-repeat 0 0;
   top: 0px;
   left: 100px;
   overflow: hidden;
@@ -154,6 +163,11 @@
   border-radius: 0, 30px 0 0!important;
 }
 
+/*Penjelasan dari kode CSS @media di atas adalah, jadi ketika sebuah 
+website di buka di ukuran layar dengan lebar (width) 900px atau kurang dari 900px maka ukuran font, 
+yang size aslinya 25px akan mengecil sebesar 20px, dan jika website tersebut di buka di ukuran layar dengan lebar (width) 500px atau 
+kurang dari 500px maka size nya akan mengecil menjadi 14px.
+*/
 @media only screen and (max-width :992px) {
   .jumbotron {margin: 0 auto;}
   #rowPortf {margin: 0 auto}
@@ -209,4 +223,190 @@ video {background-color: black;}
 	padding: 10px 5px 10px;
 	border-radius: 0;
 	margin : -3px 0 0 5px;
+}
+
+/*About*/
+/*@import url(https://fonts.googleapis.com/css?family=Pacifico);*/
+
+h1#header {
+  text-align: center;
+  padding: 50px;
+  font-size: 62px;
+  font-family: "Pacifico";
+  text-shadow: 0 2px 2px #3c77b3;
+}
+
+.article-wrapper {
+  -moz-transition: width 0.4s;
+  -o-transition: width 0.4s;
+  -webkit-transition: width 0.4s;
+  transition: width 0.4s;
+}
+
+article {
+  position: relative;
+  padding-left: 180px;
+  padding-right: 75px;
+  height: 150px;
+  margin-bottom: 30px;
+  background-color: #FFF;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  cursor: pointer;
+}
+article .img-wrapper {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  background-color: #CDE;
+  padding: 10px;
+  z-index: 1000;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+article .img-wrapper img {
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  width: 150px;
+}
+article .container{
+  position: relative;
+}
+article h1 {
+  height: 75px;
+  line-height: 75px;
+  font-size: 24px;
+  border-bottom: 2px solid #CDE;
+  color: #428bca;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+article p {
+  color: #888;
+}
+article a {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  line-height: 150px;
+  text-align: center;
+  width: 100%;
+  background-color: #FFF;
+  font-size: 48px;
+  font-style: italic;
+  opacity: 0;
+  color: #428bca !important;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  text-decoration: none !important;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  font-family: "Pacifico";
+  text-shadow: 0 1px 1px #AAA;
+}
+article:hover .img-wrapper {
+  padding: 5px;
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+article:hover .img-wrapper img {
+  width: 160px;
+}
+article:hover a {
+  opacity: 1;
+}
+
+.bloc article {
+  padding: 10px;
+  height: 225px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 75px;
+}
+.bloc article .img-wrapper {
+  position: relative;
+  top: -85px;
+  width: 170px;
+  left: inherit;
+  margin: auto;
+  margin-bottom: -100px;
+}
+.bloc article h1 {
+  font-size: 14px;
+  height: 37.5px;
+  line-height: 37.5px;
+}
+.bloc article p {
+  font-size: 12px;
+}
+.bloc article a {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  line-height: 255px;
+}
+
+/*TUBES*/
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+* {
+  box-sizing: border-box;
+}*/
+
+.acc-container {
+  width: 800px;
+  margin: 30px auto 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10%;
+  margin-top: 20%;
+  padding-top: 10%;
+}
+
+.acc-btn {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 25px;
+  cursor: pointer;
+  background: #34495E;
+  border-bottom: 1px solid #2C3E50;
+}
+
+.acc-content {
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+  background: #2C3E50;
+  padding: 30px;
+  height: auto;
+}
+
+.acc-btn h1 {
+  font: 700 20px/26px 'Lato', sans-serif;
+  color: #ffffff;
+}
+
+.acc-content p {
+  font: 400 16px/24px 'Lato', sans-serif;
+  color: #798795;
 }
