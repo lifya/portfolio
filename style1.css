@@ -1,0 +1,40 @@
+
+h1{
+  
+      font-family: myFirstFont;
+}
+
+input[type=judul]
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+input[type=password]
+{
+
+    margin-top: 1.2em auto;
+    margin:0px;
+    width: 180%;
+    padding: 1em;
+    float: center;
+    border:solid 0px;
+}
+
+
+
+.btn 
+{
+    margin-left: 150px;
+}
+
+p {
+    text-align: center;
+}
