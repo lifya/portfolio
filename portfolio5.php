@@ -9,8 +9,6 @@
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <body>
 
@@ -51,72 +49,38 @@
 <!--About-->
 <div id="About" class="container-fluid">
 <h1 id="AboutGroup" class="text-primary">Our Profile</h1>
-<div class="container list-article">
-  <div class="btn-group pull-right" id="switch-view">
-    <button class="btn btn-primary">
-      <span class="icon-th-large"></span>
-    </button>
-    <button class="btn btn-primary active">
-      <span class="icon-th-list"></span>
-    </button>
-  </div>
-  <div class="clearfix"></div>
-  <div class="row">
-    <div class="col-sm-6 article-wrapper">
-      <article>
-        <a href="#" class="more">more</a>
+  <div class="col-sm-6 article-wrapper">
+    <article>
+      <a href="elin.php" class="more">more</a>
         <div class="img-wrapper"><img src="elin.jpg" alt="" /></div>
         <h1>Elin Darnela</h1>
-          <div class="container">
-            <p>Lahir di Prabumulih, 13 Juni 1997<br> Motto hidup "Lakukan yang engkau bisa agar engkau menjadi Suka, yang berdiam akan tertinggal maka Bergeraklah"</p>
-          </div>
-      </article>
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-    </div>
-    <div class="col-sm-6 article-wrapper">
-      <article>
-        <a href="#" class="more">more</a>
+        <p>Informatic Engineering 15'</p>
+    </article>
+  </div>
+  <div class="col-sm-6 article-wrapper">
+    <article>
+      <a href="lifya.php" class="more">more</a>
         <div class="img-wrapper"><img src="lifya.jpg" alt="" /></div>
         <h1>Lifya Fitriani</h1>
-          <div class="container">
-            <p>Lahir di Palembang, 12 febuari 1998<br>Motto hidup "You will never be brave if you don't get hurt,You will never learn if you don't make a mistake"</p>
-          </div>
-      </article>
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
-    <div class="col-sm-6 article-wrapper">
-      <article>
-        <a href="#" class="more">more</a>
+        <p>Informatic Engineering 15'</p>
+    </article>
+  </div>
+  <div class="col-sm-6 article-wrapper">
+    <article>
+      <a href="pipit.php" class="more">more</a>
         <div class="img-wrapper"><img src="pipit.jpg" alt="" /></div>
         <h1>Pipit KurniaSari</h1>
-          <div class="container">
-            <p>Lahir di Mekarsari, 28 Agustus 1998<br>Motto hidup "Percaya, Ada rencana terbaik"</p>
-          </div>
-      </article>
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
-    <div class="col-sm-6 article-wrapper">
-      <article>
-        <a href="#" class="more">more</a>
+        <p>Informatic Engineering 15'</p>
+    </article>
+  </div>
+  <div class="col-sm-6 article-wrapper">
+    <article>
+      <a href="yulin.php" class="more">more</a>
         <div class="img-wrapper"><img src="yulinda.jpg" alt="" /></div>
         <h1>Yulinda Ramadhana</h1>
-          <div class="container">
-            <p>Lahir di Palembang, 10 Januari 1998<br>Motto hidup "Suffer today,<br>Enjoy tommorrow :)"</p>
-          </div>    
-      </article>
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
+        <p>Informatic Engineering 15'</p>  
+    </article>
   </div>
-</div>
 </div>
 <!--About--> 
 
@@ -325,22 +289,10 @@
 	
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- <script src="js/wow.min.js"></script> -->
-              <!-- <script>
-              new WOW().init();
-              </script>-->
+   
     <script src="js/bootstrap.min.js"></script>
-    
-    <script>
-    $(function(){
-      $("#switch-view").click(function(){
-        $(this).find("button").toggleClass("active");
-        $(".article-wrapper").toggleClass("bloc col-xs-12 col-xs-4");
-      });
-    });
-    </script>
-
-     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     <script src="js/index.js"></script>
 

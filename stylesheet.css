@@ -38,45 +38,7 @@
 	font-family: Arial;
   border: solid 1px;
 }
-#About{
-  padding: 0 100px 100px;
-  background-color: #CDE !important;
-}
-.AboutGroup{
-	padding: 50px 0 80px;
-	font-family: Alice;
-}
-.text-primary{
-  margin-top: 10%;
-}
-.AboutGroup h2,
-.AboutGroup h3{
-	margin: 20px 0 20px;
-	color: #4c4c4c;
-}
-@media (max-width: 900px){
-  .AboutGroup p {
-  font-family: Alice;
-  font-size: 16px;
-  }  
-}
 
-.AboutGroup img{
-	height : 150px;
-	width: 150px;
-	margin-top: 80px;
-}
-.AboutGroup i{
-	height : 30px;
-	width: 30px;
-	padding: 5px;
-	font-size: 17px;
-	border-radius: 50%;
-	background-color: #CD853F;
-}
-.AboutGroup a:hover i{
-	background-color: #efa762;
-}
 #recent_work {
   padding-top: 15px;
   font-family: Alice;
@@ -225,9 +187,6 @@ video {background-color: black;}
 	margin : -3px 0 0 5px;
 }
 
-/*About*/
-/*@import url(https://fonts.googleapis.com/css?family=Pacifico);*/
-
 h1#header {
   text-align: center;
   padding: 50px;
@@ -236,6 +195,26 @@ h1#header {
   text-shadow: 0 2px 2px #3c77b3;
 }
 
+/*About*/
+#About{
+  padding: 0 100px 100px;
+  background: url(bg.png);
+}
+.AboutGroup{
+  padding: 50px 0 80px;
+  font-family: Alice;
+}
+.text-primary{
+  margin-top: 10%;
+}
+.AboutGroup img{
+  height : 150px;
+  width: 150px;
+  margin-top: 80px;
+}
+.AboutGroup a:hover i{
+  background: rgba(1,1,1,0.8);
+}
 .article-wrapper {
   -moz-transition: width 0.4s;
   -o-transition: width 0.4s;
@@ -250,20 +229,20 @@ article {
   height: 150px;
   margin-bottom: 30px;
   background-color: #FFF;
-  -moz-border-radius: 150px;
-  -webkit-border-radius: 150px;
-  border-radius: 150px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
   cursor: pointer;
 }
 article .img-wrapper {
   position: absolute;
   top: -10px;
   left: -10px;
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
-  background-color: #CDE;
-  padding: 10px;
+  -moz-border-radius: 120px;
+  -webkit-border-radius: 120px;
+  border-radius: 120px;
+  background-color: #D2691E;
+  padding: 8px;
   z-index: 1000;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -271,31 +250,32 @@ article .img-wrapper {
   transition: all 0.2s;
 }
 article .img-wrapper img {
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  border-radius: 70px;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   width: 150px;
+  height: 150px;
 }
 article .container{
   position: relative;
 }
 article h1 {
   height: 75px;
-  line-height: 75px;
+  line-height: 80px;
   font-size: 24px;
   border-bottom: 2px solid #CDE;
-  color: #428bca;
+  color: #D2691E;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
 article p {
-  color: #888;
+  color: black;
 }
 article a {
   position: absolute;
@@ -303,14 +283,14 @@ article a {
   top: 0;
   left: 0;
   height: 100%;
-  line-height: 150px;
+  line-height: 100px;
   text-align: center;
   width: 100%;
   background-color: #FFF;
   font-size: 48px;
   font-style: italic;
   opacity: 0;
-  color: #428bca !important;
+  color: #D2691E !important;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -335,38 +315,6 @@ article:hover .img-wrapper img {
 article:hover a {
   opacity: 1;
 }
-
-.bloc article {
-  padding: 10px;
-  height: 225px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  margin-top: 75px;
-}
-.bloc article .img-wrapper {
-  position: relative;
-  top: -85px;
-  width: 170px;
-  left: inherit;
-  margin: auto;
-  margin-bottom: -100px;
-}
-.bloc article h1 {
-  font-size: 14px;
-  height: 37.5px;
-  line-height: 37.5px;
-}
-.bloc article p {
-  font-size: 12px;
-}
-.bloc article a {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  line-height: 255px;
-}
-
 /*TUBES*/
 /*@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 * {
