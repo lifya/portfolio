@@ -28,7 +28,7 @@
 				<li><a href="#Home">Home</a></li>
 				<li><a href="#About">About Group</a></li>
 				<li><a href="#recent_work">Product</a></li>
-				<li><a href="#tubes">Tugas Besar</a></li>
+				<li><a href="#tubes">Project</a></li>
 				<li><a href="#" data-toggle="modal" data-target='#modal'>Contact</a></li>
 			</ul>
 		</div>
@@ -198,39 +198,83 @@
     </section>
 
 <!--TUBES-->
-<div id="tubes">
-  <div class="acc-container">
-    <div class="acc-btn"><h1>Deskripsi</h1>
-      <div class="fa tss">&#xf067</div>
+<div class="container" id="tubes" >
+  <div class="row" id="baris" style="margin-top: 10%;">
+    <div class="col-lg-8">
+        <p class="ThumbnailText">
+            <b><h3 style="color: white">DESCRIPTION</h3></b>
+            <hr>
+            <div class="row">
+              <div class="col-sm-6">
+                <b><h3>text summerization?</h3></b>
+                <p>Peringkasan teks dokumen merupakan sebuah cara dalam menyingkat dokumen ke dalam sebuah ringkasan dengan mengambil informasi-informasi penting yang mewakili dokumen asli,</p>
+              </div>
+              <div class="col-sm-6">
+                <b><h3>genetic algorithm?</h3></b>
+                <ul type="circle" style="font-size: 20px;">
+                  <li>Algoritma genetika adalah algoritma komputasi yang diinspirasi teori evolusi yang kemudian diadopsi menjadi algoritma komputasi untuk mencari solusi suatu permasalahan dengan cara yang lebih “alamiah”.</li><br>
+                  <li>Algoritma genetika menggunakan teknik yang terinspirasi oleh biologi evolusioner seperti warisan, mutasi, seleksi alam dan rekombinasi.</li>
+                </ul>
+              </div>
+            </div>
+        </p>   
     </div>
-    <div class="acc-content">
-        <p>Hyper Text Markup Language (HTML) adalah sebuah bahasa markah yang digunakan untuk membuat sebuah halaman web, menampilkan berbagai informasi di dalam sebuah penjelajah web Internet dan pemformatan hiperteks sederhana yang ditulis dalam berkas format ASCII agar dapat menghasilkan tampilan wujud yang terintegerasi. Dengan kata lain, berkas yang dibuat dalam perangkat lunak pengolah kata dan disimpan dalam format ASCII normal sehingga menjadi halaman web dengan perintah-perintah HTML. Bermula dari sebuah bahasa yang sebelumnya banyak digunakan di dunia penerbitan dan percetakan yang disebut dengan SGML (Standard Generalized Markup Language), HTML adalah sebuah standar yang digunakan secara luas untuk menampilkan halaman web. HTML saat ini merupakan standar Internet yang didefinisikan dan dikendalikan penggunaannya oleh World Wide Web Consortium (W3C). HTML dibuat oleh kolaborasi Caillau TIM dengan Berners-lee Robert ketika mereka bekerja di CERN pada tahun 1989 (CERN adalah lembaga penelitian fisika energi tinggi di Jenewa).</p>
+    <div class="col-lg-4" id="gambar1">
+        <img class="img-circle" src="genetic.jpg" data-holder-rendered="true">
     </div>
+  </div>
 
-    <div class="acc-btn"><h1>Kebutuhan Fungsional Dan Kebutuhan Non Fungsional</h1>
-      <div class="fa tss">&#xf067</div>
+  <div class="row" id="baris">
+    <div class="col-lg-7" id="gambar2">
+        <img class="img-circle" src="SR.jpg" data-holder-rendered="true">
     </div>
-    <div class="acc-content">
-        <p>Pada tahun 1980 seorang ahli fisika, Tim Berners-Lee, dan juga seorang kontraktor di CERN (Organisasi Eropa untuk Riset Nuklir) mengusulkan dan menyusun ENQUIRE, sebuah sistem untuk ilmuwan CERN dalam membagi dokumen. Sembilan tahun kemudian, Berners-Lee mengusulkan adanya sistem markah berbasis internet. Berners-Lee menspesifikasikan HTML dan menulis jaringan beserta perangkat lunaknya di akhir 1990. Pada tahun yang sama, Berners-Lee dan Robert Cailliau, insinyur sistem data CERN berkolaborasi dalam sebuah permintaan untuk pendanaan, namun tidak diterima secara resmi oleh CERN. Di catatan pribadinya sejak 1990 dia mendaftar "beberapa dari banyak daerah yang menggunakan hypertext" dan pertama-tama menempatkan sebuah ensiklopedia.</p>
+    <div class="col-lg-5">
+        <p class="ThumbnailText">
+            <b><h3 style="color: white">FUNGSIONAL <br>NON-FUNGSIONAL REQUIREMENT</h3></b>
+            <hr>
+            <p>
+              <ol style="font-size: 20px;"><u>Fungsional Requirement:</u>
+                <li>perangkat lunak dapat melakukan prapengolahan</li>
+                <li>perangkat lunak dapat melakukan peringkasan teks</li>
+                <li>perangkat lunak dapat mengukur tingkat akurasi hasil ringkasan</li>
+              </ol><br>
+              <ol style="font-size: 20px;"><u>Non-Fungsional Requirement:</u>
+                <li>perangkat lunak memiliki tampilan yang sederhana dan mudah digunakan oleh user</li>
+              </ol>
+            </p>
+        </p>
     </div>
+  </div>
 
-    <div class="acc-btn"><h1>Use Case</h1>
-      <div class="fa tss">&#xf067</div>
+  <div class="row" id="baris">
+    <div class="col-lg-6">
+        <p class="ThumbnailText">
+            <b><h3 style="color: white">USE CASE</h3></b>
+            <hr>
+            <p>
+              Meringkas teks
+            </p>
+        </p>
     </div>
-    <div class="acc-content">
-      <p>Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman.</p>
-      <p>Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa berkas (file). Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML.</p>
-      <p>CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan, atas, bawah, dan parameter lainnya. CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen. Dengan adanya CSS memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda.</p>
+    <div class="col-lg-6" id="gambar1">
+        <img class="img-circle" src="usecase.png" data-holder-rendered="true">
     </div>
-
-    <div class="acc-btn"><h1>Entitas Relationship Diagram</h1>
-      <div class="fa tss">&#xf067</div>
+  </div>
+  
+  <div class="row" id="baris">
+    <div class="col-lg-7" id="gambar2">
+        <img class="img-circle" src="DB.png" data-holder-rendered="true">
     </div>
-      <div class="acc-content">
-        <p>Untuk saat ini terdapat tiga versi CSS, yaitu CSS1, CSS2, dan CSS3. CSS1 dikembangkan berpusat pada pemformatan dokumen HTML, CSS2 dikembangkan untuk memenuhi kebutuhan terhadap format dokumen agar bisa ditampilkan di printer, sedangkan CSS3 adalah versi terbaru dari CSS yang mampu melakukan banyak hal dalam desain website. CSS2 mendukung penentuan posisi konten, downloadable, huruf font, tampilan pada tabel /table layout dan media tipe untuk printer. Kehadiran versi CSS yang kedua diharapkan lebih baik dari versi pertama dan kedua.</p>
-        <p>CSS3 juga dapat melakukan animasi pada halaman website, di antaranya animasi warna hingga animasi 3D. Dengan CSS3 desainer lebih dimudahkan dalam hal kompatibilitas websitenya pada smartphone dengan dukungan fitur baru yakni media query. Selain itu, banyak fitur baru pada CSS3 seperti: multiple background, border-radius, drop-shadow, border-image, CSS Math, dan CSS Object Model.</p>
-      </div>
+    <div class="col-lg-5">
+        <p class="ThumbnailText">
+            <b><h3 style="color: white">ENTITY RELATIONSHIP DIAGRAM</h3></b>
+            <hr>
+            <p>
+              hello from the other side
+            </p>
+        </p>
     </div>
+  </div>
 </div>
 
 <!--contact-->

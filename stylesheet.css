@@ -1,3 +1,6 @@
+body{
+  background-image: url(gambar-coklat.jpg);
+}
 .btn:hover {
 	background-color: #ededed !important;
 	color: #3c3c3c !important;
@@ -198,7 +201,6 @@ h1#header {
 /*About*/
 #About{
   padding: 0 100px 100px;
-  background: url(bg.png);
 }
 .AboutGroup{
   padding: 50px 0 80px;
@@ -320,41 +322,44 @@ article:hover a {
 * {
   box-sizing: border-box;
 }*/
+/*--TUBES--*/
+#tubes{
+  margin-right: 20%;
+  margin-left: 10%;
+  margin-top: 50%;
+  color: white;
+}
+#tubes p{
+  font-size: 20px;
+  text-align: center;
+}
 
-.acc-container {
-  width: 800px;
-  margin: 30px auto 0 auto;
-  border-radius: 8px;
-  overflow: hidden;
+#gambar1{
+  width: 250px;
+  height: 250px; 
+  float: right; 
+}
+#gambar2{
+  width: 250px;
+  height: 250px;  
+  float: left; 
+  margin-right: 30%;
+}
+#baris{
   margin-bottom: 10%;
-  margin-top: 20%;
-  padding-top: 10%;
 }
-
-.acc-btn {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px 25px;
-  cursor: pointer;
-  background: #34495E;
-  border-bottom: 1px solid #2C3E50;
+.container .ThumbnailText{
+  text-align: center;
+  font-size: 30px;
+  color: white;
 }
-
-.acc-content {
-  width: 100%;
-  margin: 0 auto;
-  display: none;
-  background: #2C3E50;
-  padding: 30px;
-  height: auto;
+.container .ThumbnailText h3{
+  color: brown;
 }
-
-.acc-btn h1 {
-  font: 700 20px/26px 'Lato', sans-serif;
-  color: #ffffff;
+hr{
+  border: 30px;
 }
-
-.acc-content p {
-  font: 400 16px/24px 'Lato', sans-serif;
-  color: #798795;
+#tubes{
+  margin-top: 10%;
 }
+/*--TUBES--*/
