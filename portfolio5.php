@@ -14,14 +14,13 @@
 
 <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="myNavbar">
 	<div class="container">
-		<div class="nabar-header">
+		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button> 
-
-			<a href="#" class="navbar-brand">COSMIC</a>
+      <a href="#Home" class="navbar-brand">COSMIC</a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -38,17 +37,17 @@
 <!--Home-->
 	<section id="Home" class="header">
    		<div class="jumbotron frosted">
+        <center><img src="logo.png"></center>
    			<h1>Computer Science Informatic</h1>
    			<h2>We are Cosmic Group</h2>
    		</div>
-   			<button class="btn btn-lg btn-primary">Join Now</button>
-   			<button class="btn btn-lg btn-success">View Detail</button>
+      <a href="sumary.php" class="btn btn-lg btn-success">View Detail</a>
    </section>
 <!--Home-->
 
 <!--About-->
 <div id="About" class="container-fluid">
-<h1 id="AboutGroup" class="text-primary">Our Profile</h1>
+<h1 id="AboutGroup" class="text-primary" style="color:white;">Our Profile</h1>
   <div class="col-sm-6 article-wrapper">
     <article>
       <a href="elin.php" class="more">more</a>
@@ -90,7 +89,7 @@
      	<div class="container" id="container1">
           <div class="row">
             <div class="col-lg-12 page-header text-center">
-              <h2><b>SOME OF OUR WORK</b></h2>
+              <h2 style="color:white;"><b>SOME OF OUR WORK</b></h2>
             </div>
           </div>
         </div>
@@ -113,17 +112,17 @@
                              <div class="devices item active">
                               <div class="desktop">
                                   <a href="#" target="_blank">
-                                     <img src="gambar5.jpg"   alt="Calculator">
+                                     <img src="gambar5.jpg"  >
                                  </a>
                               </div>
                               <div class="tablet">
                                  <a href="#" target="_blank">
-                                     <img src="gambar5.jpg"   alt="Calculator">
+                                     <img src="gambar5.jpg" >
                                  </a>
                               </div>
                               <div class="mobile">
                                  <a href="#" target="_blank">
-                                     <img src="gambar5.jpg"   alt="Calculator">
+                                     <img src="gambar5.jpg"  >
                                  </a>
                               </div>
                             </div>
@@ -131,18 +130,18 @@
                           <!--item2-->
                           <div class="devices item">
                               <div class="desktop">
-                                    <a href="http://oky.16mb.com/MYpublic/yellow/" target="_blank">
-                                      <img src="http://oky.16mb.com/MYpublic/yellow.jpg"  alt="yellow">
+                                    <a href="#" target="_blank">
+                                      <img src="work_pipit.png"  alt="yellow">
                                    </a>
                                 </div>
                                 <div class="tablet">
-                                   <a href="http://oky.16mb.com/MYpublic/yellow/" target="_blank">
-                                     <img src="http://oky.16mb.com/MYpublic/yellow.jpg"  alt="yellow">
+                                   <a href="#" target="_blank">
+                                     <img src="work_pipit.png"  alt="yellow">
                                   </a>
                                 </div>
                                 <div class="mobile">
-                                   <a href="http://oky.16mb.com/MYpublic/yellow/" target="_blank">
-                                      <img src="http://oky.16mb.com/MYpublic/yellow.jpg"  alt="yellow">
+                                   <a href="#" target="_blank">
+                                      <img src="work_pipit.png"  alt="yellow">
                                   </a>
                                 </div>
                               </div>
@@ -150,18 +149,18 @@
                             <!--item3-->
                             <div class="devices item">
                               <div class="desktop">
-                                  <a href="https://codepen.io/oky/full/RroLzJ/" target="_blank">
-                                      <img src="http://oky.16mb.com/MYpublic/Web/Pomodoro_Clock.jpg" alt="shi">
+                                  <a href="#" target="_blank">
+                                      <img src="work_yulinda.jpg" alt="shi">
                                   </a>
                               </div>
                               <div class="tablet">
-                                  <a href="https://codepen.io/oky/full/RroLzJ/" target="_blank">
-                                    <img src="http://oky.16mb.com/MYpublic/Web/Pomodoro_Clock.jpg" alt="shi">
+                                  <a href="#" target="_blank">
+                                    <img src="work_yulinda.jpg" alt="shi">
                                   </a>
                               </div>
                               <div class="mobile">
-                                 <a href="https://codepen.io/oky/full/RroLzJ/" target="_blank">
-                                    <img src="http://oky.16mb.com/MYpublic/Web/Pomodoro_Clock.jpg" alt="shi">
+                                 <a href="#" target="_blank">
+                                    <img src="work_yulinda.jpg" alt="shi">
                                   </a>
                               </div>
                             </div>
@@ -170,21 +169,41 @@
                              <div class="devices item">
                               <div class="desktop">
                                   <a href="#" target="_blank">
-                                     <img src="gambar3.jpg"   alt="Calculator">
+                                     <img src="work_elin.jpg"   alt="Calculator">
                                  </a>
                               </div>
                               <div class="tablet">
                                  <a href="#" target="_blank">
-                                     <img src="gambar1.jpg"   alt="Calculator">
+                                     <img src="work_elin.jpg"   alt="Calculator">
                                  </a>
                               </div>
                               <div class="mobile">
                                  <a href="#" target="_blank">
-                                     <img src="gambar2.jpg"   alt="Calculator">
+                                     <img src="work_elin.jpg"   alt="Calculator">
                                  </a>
                               </div>
                             </div>
                         <!--item4-->
+
+                        <!--item5-->
+                             <div class="devices item">
+                              <div class="desktop">
+                                  <a href="#" target="_blank">
+                                     <img src="lipstyik.jpg"   alt="Calculator">
+                                 </a>
+                              </div>
+                              <div class="tablet">
+                                 <a href="#" target="_blank">
+                                     <img src="lipstyik.jpg"   alt="Calculator">
+                                 </a>
+                              </div>
+                              <div class="mobile">
+                                 <a href="#" target="_blank">
+                                     <img src="lipstyik.jpg"   alt="Calculator">
+                                 </a>
+                              </div>
+                            </div>
+                        <!--item5-->
                         
                        </div><!--carousel inner-->
                        <!--control-->
@@ -236,10 +255,10 @@
               <ol style="font-size: 20px;"><u>Fungsional Requirement:</u>
                 <li>perangkat lunak dapat melakukan prapengolahan</li>
                 <li>perangkat lunak dapat melakukan peringkasan teks</li>
-                <li>perangkat lunak dapat mengukur tingkat akurasi hasil ringkasan</li>
               </ol><br>
               <ol style="font-size: 20px;"><u>Non-Fungsional Requirement:</u>
-                <li>perangkat lunak memiliki tampilan yang sederhana dan mudah digunakan oleh user</li>
+                <li>Usability : Perangkat Lunak memiliki tampilan yang sederhana dan mudah digunakan oleh user</li>
+                <li>Portability : Pengaksesan sistem mudah dilakukan oleh user, di os manapun bisa digunakan</li>
               </ol>
             </p>
         </p>
@@ -270,7 +289,7 @@
             <b><h3 style="color: white">ENTITY RELATIONSHIP DIAGRAM</h3></b>
             <hr>
             <p>
-              hello from the other side
+              <img src="erd.jpg">
             </p>
         </p>
     </div>
@@ -286,7 +305,7 @@
 	           <h4 class='modal-title'>Contact information:</h4>
 	      </div>
 	      <div class="modal-body">
-	         <video  src="http://oky.16mb.com/MYpublic/videoplayback2.ogg" type="video/ogg"  autoplay loop></video>
+	        <img src="gambar-coklat.jpg">
 	         <div class="carousel-caption">
 	            <h3>idline: @153jkl</h3>
 	            <p>Email: cosmics@gmail.com</p>

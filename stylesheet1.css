@@ -21,6 +21,10 @@ font-family: "Roboto", sans-serif;
   opacity: 1;
   background-color: #CD853F !important;
 }
+.navbar img{
+  height: 400px;
+  width: 200px;
+}
 #Home {
   background: url(cosmic.png);
   background-size: cover;

@@ -17,7 +17,7 @@
 				<span class="icon-bar"></span>
 			</button> 
 
-			<a href="#" class="navbar-brand">COSMIC</a>
+			<a href="#Home" class="navbar-brand">COSMIC</a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">

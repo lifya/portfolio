@@ -18,7 +18,7 @@ input[type=judul]
 <meta charset="UTF-8">
 
 <title>TUGAS</title>
-<link rel="stylesheet" href="<?php echo base_url();?>assets/css/style1.CSS" media="screen"/>
+<link rel="stylesheet" href="style1.css" media="screen"/>
 <h1 align="center" >  <strong>AUTOMATIC TEXT SUMMARIZER INDONESIA</strong></h1> 
 
 </head>
@@ -27,7 +27,7 @@ input[type=judul]
     
     <form>
     <fieldset id="UserDataFields">
-    <table align="center"   border-spacing: 15px >
+    <table align="center">
 
     <tr><br>
         <td><b>Judul</b></td>
@@ -42,8 +42,10 @@ input[type=judul]
     </table>
 
          <div align="center" class="row">
+         <button role="button" type="Browse">Browse</botton>
          <button role="button" type="Register">Ringkas </botton> 
          <button role="button" type="Cancel" >Hapus </botton>
+         <button role="button" type="Back" >Back </botton>
          </div>
      </fieldset>
   

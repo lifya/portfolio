@@ -13,6 +13,10 @@ body{
 	font-family: Arial;
 	font-weight: 700;
 }
+.navbar img{
+  height: 40px;
+  width: 150px;
+}
 .navbar a{
 	color: #fff !important;
 	opacity: 0.7;
@@ -34,7 +38,10 @@ body{
   position: relative;
   padding-bottom: 15%;
 }
-
+#Home img {
+  width:400px ;
+   height:140px;
+}
 .header .btn{
 	border-radius: 0;
 	margin: 40px 20px;
@@ -133,6 +140,17 @@ website di buka di ukuran layar dengan lebar (width) 900px atau kurang dari 900p
 yang size aslinya 25px akan mengecil sebesar 20px, dan jika website tersebut di buka di ukuran layar dengan lebar (width) 500px atau 
 kurang dari 500px maka size nya akan mengecil menjadi 14px.
 */
+.frosted {
+  background-color: rgba(256,256,256,0.8);
+  width: 100%;
+  height: auto;
+  margin: auto;
+  /*border-radius: 15px;
+  margin-top: 30px;
+  padding: 20px;*/
+  overflow: auto;
+}
+
 @media only screen and (max-width :992px) {
   .jumbotron {margin: 0 auto;}
   #rowPortf {margin: 0 auto}
@@ -149,11 +167,10 @@ kurang dari 500px maka size nya akan mengecil menjadi 14px.
     margin: 0 0px 0 auto; overflow: hidden;
   }
 }
-video, img {
+img {
   height:100%; width:100%;
   border-radius: 5px;
   }
-video {background-color: black;}
 
 #modal .modal-dialog .modal-content .modal-footer .btn{
 	border-radius: 0;
@@ -208,7 +225,10 @@ h1#header {
 }
 .text-primary{
   margin-top: 10%;
+  border-color: black;
+  color:black;
 }
+
 .AboutGroup img{
   height : 150px;
   width: 150px;
@@ -317,6 +337,7 @@ article:hover .img-wrapper img {
 article:hover a {
   opacity: 1;
 }
+
 /*TUBES*/
 /*@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 * {

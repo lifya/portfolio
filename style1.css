@@ -1,4 +1,6 @@
-
+body {
+    background-image: url(gambar-coklat.jpg);
+}
 h1{
   
       font-family: myFirstFont;

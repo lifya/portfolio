@@ -17,7 +17,7 @@
 				<span class="icon-bar"></span>
 			</button> 
 
-			<a href="#" class="navbar-brand">COSMIC</a>
+			<a href="#Home" class="navbar-brand">COSMIC</a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -35,14 +35,14 @@
       <div class="teacher-name">
         <div class="row">
         <div class="col-sm-9">
-          <h2><strong>Pipit KurniaSari</strong></h2>
+          <h2><strong>Yulinda Ramadhana</strong></h2>
         </div>
         </div>
       </div>
 
       <div class="row" style="margin-top:20px;">
         <div class="col-sm-3"> 
-          <a href="#"><img src="pipit.jpg"></a>
+          <a href="#"><img src="yulinda.jpg"></a>
         </div>
 
         <div class="col-sm-6" style="margin-top: 30px;"> 
